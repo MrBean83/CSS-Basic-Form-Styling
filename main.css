@@ -10,3 +10,35 @@
   margin: 0 auto;  
   width: 720px;
 }
+
+#registration {
+  margin: 0 auto;
+  padding-top: 17px;
+  padding-left: 20px;
+  line-height: 15px;
+  height:90px ;
+  width:250px ;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #694A59), color-stop(1, #778899));
+}
+
+#registration input {
+  margin-bottom: 7px;
+  padding: 5px;
+}
+
+#registration input:nth-child(2) {
+  clear: left;
+  width: 110px;
+}
+
+
+button {
+  margin-left: 15px;
+  display:inline;
+  height: 33px ;
+  width: 80px ;
+  background-image: -webkit-linear-gradient(top, #03301E 0%, #000A0F 100%);
+  /*box-shadow: 1px #FFFFFF;*/
+  color: white;
+}
